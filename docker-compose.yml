@@ -22,7 +22,6 @@ services:
     restart: always
 
   web:
-    web:
     build:
         context: nginx
     ports:
