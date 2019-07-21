@@ -22,7 +22,9 @@ services:
     restart: always
 
   web:
-    image: nginx
+    web:
+    build:
+        context: nginx
     ports:
       - 8080:80
     links:
