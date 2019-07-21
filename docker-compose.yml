@@ -12,7 +12,7 @@ services:
       - MYSQL_PASSWORD=root
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
-    port:
+    ports:
       - 33066:3306
 
   app:
